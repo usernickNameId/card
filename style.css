@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+    user-select: none;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+input,button:focus {
+    outline: none!important;
+}
+.wrapper {
+    padding-top: 70px;
+}
+.card {
+    margin-top: 20px;
+}
+.card-img-top {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.card__asus {
+    color: white;
+    text-decoration: underline;
+    background-color: #9c0294;
+    border: 2px solid #762476;
+    padding-top: 3px;
+    padding-bottom:3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 7px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.card__asus:hover {
+    color: #9c0294;
+    transition: all 0.5s linear;
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid #762476;
+    padding-top: 3px;
+    padding-bottom:3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 7px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.card__asus-block {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.card__price {
+    color: black;
+    background-color: #ffca05;
+    font-weight: 600;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.card__link {
+    text-transform: uppercase;
+    color: #707271;
+    text-decoration: underline;
+    font-weight: 600;
+}
+.card__link:hover {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #707271;
+    font-weight: 600;
+    
+}
+.card__text {
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #32332b;
+}
+.card__btn {
+    width: 100%;
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px solid #dfcc66;
+    background-color: #ffcc00;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #4e3000;
+    margin-bottom: 20px;
+}
+.card__btn:hover {
+    width: 100%;
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px solid #ffcc00;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 20px;
+    transition: all 0.5s linear;
+    color: #4e3000;
+}
+.pb-10 {
+    padding-bottom: 10px;
+}
